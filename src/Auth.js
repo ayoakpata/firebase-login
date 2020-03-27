@@ -125,9 +125,9 @@ class Auth extends Component {
         <p>{this.state.err}</p>
 
         <button onClick={this.login}>Log In</button>
-        <button onClick={this.signup}>Sign up</button>
+        <button onClick={this.signup}>Sign Up</button>
         <button onClick={this.logout} id="logout" className="hide">Log out</button><br />
-        <button onClick={this.google} id="google" className="google">Sign with Google</button>
+        <button onClick={this.google} id="google" className="google">Sign In with Google</button>
       </div>
     );
   }
