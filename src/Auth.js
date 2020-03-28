@@ -86,9 +86,9 @@ class Auth extends Component {
       promise.then( result => {
         let user = result.user;
         console.log(result);
-        firebase.database().ref('users/'+user.user.uid).set({ 
-          email: user.user.email,
-          name: user.user.displayName
+        firebase.database().ref('users/'+user.uid).set({ 
+          email: user.email,
+          name: user.displayName
         }) 
       })
       promise.catch(e => {
