@@ -44,10 +44,11 @@ body{
 }
 
 input[type="email"] {
-  width: 480px;
+  width: 232px;
   margin-top: 130px;
-  padding: 10px;
-  font-size: 30px;
+  margin-right: 10px;
+  padding: 7px;
+  font-size: 15px;
   border-radius: 10px;
   border: none;
   border-bottom: solid 2px #c9c9c9;
@@ -55,10 +56,11 @@ input[type="email"] {
 }
 
 input[type="password"] {
-  width: 480px;
+  width: 232px;
   margin-top: 20px;
-  padding: 10px;
-  font-size: 30px;
+  margin-right: 10px;
+  padding: 7px;
+  font-size: 15px;
   border-radius: 10px;
   border: none;
   border-bottom: solid 2px #c9c9c9;
@@ -71,11 +73,11 @@ input[type="password"].focus {
 }
 
 button {
-  font-size: 30px;
+  font-size: 15px;
   background-color: rgb(30, 13, 77);
   color: #fff;
-  padding: 10px 30px;
-  margin-top: 20px;
+  padding: 7px 30px;
+  margin-top: 10px;
   margin-right: 10px;
   border-radius: 15px;
 }
@@ -89,10 +91,10 @@ p{
   display: none;
 }
 .google {
-  font-size: 30px;
+  font-size: 20px;
   background-color: #dd4b39;
   color: #fff;
-  padding: 10px 30px;
+  padding: 7px 30px;
   margin-top: 20px;
   margin-right: 10px;
   border-radius: 15px;
