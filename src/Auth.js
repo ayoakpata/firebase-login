@@ -76,7 +76,7 @@ class Auth extends Component {
       }
 
      //try google sign in with the redirect 
-    //enable google signin in firebase
+    
     google() {
       console.log('signed in with google');
 
@@ -86,7 +86,7 @@ class Auth extends Component {
       promise.then( result => {
         let user = result.user;
         console.log(result);
-        firebase.database().ref('users/'+user.user.uid).set({ //if error: check node tree
+        firebase.database().ref('users/'+user.user.uid).set({ 
           email: user.user.email,
           name: user.user.displayName
         }) 
@@ -94,7 +94,7 @@ class Auth extends Component {
       promise.catch(e => {
         let mssg =  e.message
         console.log(mssg);
-        //vtodo: change state
+       //to do: change state
       })
     }
 
