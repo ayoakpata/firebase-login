@@ -80,7 +80,7 @@ class Auth extends Component {
     google() {
       console.log('signed in with google');
 
-      let provider = new firebase.auth.GithubAuthProvider();
+      let provider = new firebase.auth.GoogleAuthProvider();
       let promise =  firebase.auth().signInWithPopup(provider);
       
       promise.then( result => {
